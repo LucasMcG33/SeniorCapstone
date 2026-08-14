@@ -1,2 +1,2 @@
 # Capstone
-Senior year capstone project and adjacent projects
+Senior year capstone and adjacent projects
