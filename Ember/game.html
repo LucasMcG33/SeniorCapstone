@@ -9,10 +9,18 @@
     
   <div class="container">
     <div id="decontamination" class="screen active">
-        <h3>Decontamination Chamber</h3>
-        <main>
-            <img src="decontaminationTEMP.jpg" alt="Temporary Decontam Image" width="200">
-        </main>
+        <style>
+          body{
+            background-image: url('decontaminationTEMP.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+          }  
+        </style>
+        <h2 style="text-align: center; color: white;">Decontamination Chamber</h2>
+
+        
         <form>
             <button onclick="switchScreen('storage1')">Forward</button>
             <button onclick="switchScreen('observatory')">Right</button>
