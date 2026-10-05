@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
     <title>EMBER</title>
 </head>
 <body>
@@ -22,10 +23,12 @@
         <div style="width: 150px; height: 150px; background-color: rgb(172, 187, 192); border: 2px solid blue; display: flex; justify-content: center; align-items: center; text-align: center;">
             <em>As you enter the decontamination chamber to the vault, you hear faint alarms blare from inside. The countdown has begun. 5 minutes starts now. *Click to Continue*</em>
         </div>
-        <img src="powerOff.png" height="40">
+        <div class="right-hud-icon">
+            <div><img src="powerOff.png" height="40"></div>
+            <div><img src="noKeycard.png" width="50"></div>
+        </div>
         <img src="redPlane.png" width="50">
-        <img src="noKeycard.png" width="50">
-        <label for="redPlane">5:00</label>
+        <label for="redPlane" class="timer-display">5:00</label>
 
         <form>
             <button onclick="switchScreen('storage1')">Forward</button>

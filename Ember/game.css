@@ -1,0 +1,21 @@
+.timer-display {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  justify-content: top;
+}
+
+.right-hud-icon {
+    position:fixed;
+    top:0px;
+    right:20px;
+
+    display:flex;
+    flex-direction:column;
+    gap: 5px;
+    align-items:flex-end;
+}
